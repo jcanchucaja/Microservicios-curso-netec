@@ -24,12 +24,12 @@ public class UserEntity {
     @Column(length = 20)
     private String document;
 
-    @Column(length = 20)
+    @Column(length = 100)
     private String name;
 
-    @Column(length = 20)
+    @Column(length = 100)
     private String email;
 
-    @Column(length = 20)
+    @Column(length = 200)
     private String information;
 }
